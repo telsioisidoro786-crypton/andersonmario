@@ -7,15 +7,20 @@
    Enquanto estiver false, o site funciona com os dados de js/defaults.js
    ============================================================ */
 window.SITE_CONFIG = {
-  firebaseEnabled: false,
+  firebaseEnabled: true,
   firebase: {
-    apiKey: "COLA_AQUI",
-    authDomain: "COLA_AQUI.firebaseapp.com",
-    projectId: "COLA_AQUI",
-    storageBucket: "COLA_AQUI.appspot.com",
-    messagingSenderId: "COLA_AQUI",
-    appId: "COLA_AQUI"
+    apiKey: "AIzaSyBbBMT3i_yrFwOiEJzctkVw2IKnu020l3U",
+    authDomain: "andersonmario-646de.firebaseapp.com",
+    projectId: "andersonmario-646de",
+    storageBucket: "andersonmario-646de.firebasestorage.app",
+    messagingSenderId: "1080515138524",
+    appId: "1:1080515138524:web:a78f7fe16a77e0af1f7519"
   },
+
+
+  // Firebase Storage exige o plano Blaze (cartão). Deixa false para usar links
+  // de imagem ou ficheiros na pasta img/ (ex.: img/foto1.jpg). Põe true só se activares o Storage.
+  useStorage: false,
 
   // Se true, pede nome + WhatsApp antes de abrir um download (cria lista de fãs)
   downloadGate: false,
